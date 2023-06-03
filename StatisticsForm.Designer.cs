@@ -50,11 +50,12 @@
             // 
             this.exitBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBTN.BackgroundImage = global::LearningSoftware.Properties.Resources.Exit;
+            this.exitBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.exitBTN.Location = new System.Drawing.Point(1545, 2);
             this.exitBTN.Name = "exitBTN";
             this.exitBTN.Size = new System.Drawing.Size(50, 50);
             this.exitBTN.TabIndex = 1;
-            this.exitBTN.Text = "button1";
             this.exitBTN.UseVisualStyleBackColor = true;
             this.exitBTN.Click += new System.EventHandler(this.exitBTN_Click);
             // 
@@ -62,9 +63,11 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.Image = global::LearningSoftware.Properties.Resources.papei_logo;
             this.pictureBox1.Location = new System.Drawing.Point(2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 46);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

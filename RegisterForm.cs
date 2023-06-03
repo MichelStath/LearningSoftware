@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace LearningSoftware
 {
     public partial class RegisterForm : Form
@@ -26,7 +27,9 @@ namespace LearningSoftware
                 textBox2.Text,
                 textBox3.Text,
                 textBox4.Text);
-            helper.saveStudentToDB(s);
+            helper.RegisterStudent(s);
+            this.Close();
+            
         }
 
         private void exitBTN_Click(object sender, EventArgs e)

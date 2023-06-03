@@ -31,6 +31,7 @@ namespace LearningSoftware
         public Dictionary<int, UserControl> languagesDict = new Dictionary<int, UserControl>();
         public Dictionary<int, UserControl> skillsDict = new Dictionary<int, UserControl>();
         public Dictionary<int, UserControl> jobsDict = new Dictionary<int, UserControl>();
+        public Dictionary<int, UserControl> homeDict = new Dictionary<int, UserControl>();
         public IntroPage1 iPage1 = new IntroPage1();
         public IntroPage2 iPage2 = new IntroPage2();
         public LangPage1 lPage1 = new LangPage1();  
@@ -39,6 +40,8 @@ namespace LearningSoftware
         public SkillPage2 sPage2= new SkillPage2();
         public JobPage1 jPage1 = new JobPage1();
         public JobPage2 jPage2 = new JobPage2();
+        public HomePage1 hPage1 = new HomePage1();
+        public HomePage2 hPage2 = new HomePage2();
 
         int currPage = 1;
         CategoriesEnum currCategory= CategoriesEnum.HOME;
@@ -50,6 +53,7 @@ namespace LearningSoftware
         {
             InitializeComponent();
             FeedDictionary();
+            showPage(currPage, currCategory);
         }
 
 
@@ -60,6 +64,8 @@ namespace LearningSoftware
 
         private void introBTN_Click(object sender, EventArgs e)
         {
+            nextBTN.Enabled = true;
+            prevBTN.Enabled = false;
             currPage = 1;
             currCategory= CategoriesEnum.INTRO;
             clearMainPanel();
@@ -68,6 +74,8 @@ namespace LearningSoftware
 
         private void langBTN_Click(object sender, EventArgs e)
         {
+            nextBTN.Enabled = true;
+            prevBTN.Enabled = false;
             currPage = 1;
             currCategory= CategoriesEnum.LANGUAGES;
             clearMainPanel();
@@ -76,6 +84,8 @@ namespace LearningSoftware
 
         private void skilsBTN_Click(object sender, EventArgs e)
         {
+            nextBTN.Enabled = true;
+            prevBTN.Enabled = false;
             currPage = 1;
             currCategory= CategoriesEnum.SKILLS;
             clearMainPanel();
@@ -84,6 +94,8 @@ namespace LearningSoftware
 
         private void jobsBTN_Click(object sender, EventArgs e)
         {
+            nextBTN.Enabled = true;
+            prevBTN.Enabled = false;
             currPage = 1;
             currCategory= CategoriesEnum.JOBS;
             clearMainPanel();
@@ -92,8 +104,13 @@ namespace LearningSoftware
 
         private void nextBTN_Click(object sender, EventArgs e)
         {
+
             currPage++;
-            if (currPage > 1)
+            if (currPage == 2)
+            {
+                nextBTN.Enabled = false;
+            }
+            if (currPage == 2)
             {
                 prevBTN.Enabled = true;
             }
@@ -108,6 +125,10 @@ namespace LearningSoftware
             {
                 prevBTN.Enabled = false;
             }
+            if (currPage == 1)
+            {
+                nextBTN.Enabled = true;
+            }
             clearMainPanel();
             showPage(currPage, currCategory);
         }
@@ -118,6 +139,7 @@ namespace LearningSoftware
             this.Refresh();
         }
 
+        //ready
         private void showPage(int page , CategoriesEnum category)
         {
 
@@ -133,18 +155,50 @@ namespace LearningSoftware
                     else Console.WriteLine("Something gone wrong");
                     break;
                 case CategoriesEnum.LANGUAGES:
+                    var pageToShow1 = new UserControl();
+                    bool hasValue1 = languagesDict.TryGetValue(page, out pageToShow1);
+                    if (hasValue1)
+                    {
+                        mainPanel.Controls.Add(pageToShow1);
+                        //pageToShow.Show();
+                    }
+                    else Console.WriteLine("Something gone wrong");
                     break;
                 case CategoriesEnum.SKILLS:
+                    var pageToShow2 = new UserControl();
+                    bool hasValue2 = skillsDict.TryGetValue(page, out pageToShow2);
+                    if (hasValue2)
+                    {
+                        mainPanel.Controls.Add(pageToShow2);
+                        //pageToShow.Show();
+                    }
+                    else Console.WriteLine("Something gone wrong");
                     break;
                 case CategoriesEnum.JOBS:
+                    var pageToShow4 = new UserControl();
+                    bool hasValu4 = jobsDict.TryGetValue(page, out pageToShow4);
+                    if (hasValu4)
+                    {
+                        mainPanel.Controls.Add(pageToShow4);
+                        //pageToShow.Show();
+                    }
+                    else Console.WriteLine("Something gone wrong");
                     break;
                 case CategoriesEnum.HOME:
+                    var pageToShow5 = new UserControl();
+                    bool hasValu5 = homeDict.TryGetValue(page, out pageToShow5);
+                    if (hasValu5)
+                    {
+                        mainPanel.Controls.Add(pageToShow5);
+                        //pageToShow.Show();
+                    }
+                    else Console.WriteLine("Something gone wrong");
                     break;
                 default:
                     break;
             }
         }
-
+        //ready
         private void FeedDictionary()
         {
             introDict.Add(1, iPage1);
@@ -158,6 +212,9 @@ namespace LearningSoftware
 
             jobsDict.Add(1, jPage1);
             jobsDict.Add(2, jPage2);
+
+            homeDict.Add(1, hPage2);
+            homeDict.Add(2, hPage2);
         }
 
     }

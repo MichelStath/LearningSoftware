@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.exitBTN = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.jobsBTN = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -40,12 +39,13 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.nextBTN = new System.Windows.Forms.Button();
             this.prevBTN = new System.Windows.Forms.Button();
+            this.nextBTN = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,23 +64,14 @@
             // 
             this.exitBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBTN.BackColor = System.Drawing.Color.DimGray;
+            this.exitBTN.Image = global::LearningSoftware.Properties.Resources.Exit;
             this.exitBTN.Location = new System.Drawing.Point(1545, 2);
             this.exitBTN.Name = "exitBTN";
             this.exitBTN.Size = new System.Drawing.Size(50, 50);
             this.exitBTN.TabIndex = 1;
-            this.exitBTN.Text = "button1";
-            this.exitBTN.UseVisualStyleBackColor = true;
+            this.exitBTN.UseVisualStyleBackColor = false;
             this.exitBTN.Click += new System.EventHandler(this.exitBTN_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 46);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -204,18 +195,6 @@
             this.label1.Text = "Categories";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // nextBTN
-            // 
-            this.nextBTN.BackColor = System.Drawing.Color.Black;
-            this.nextBTN.Dock = System.Windows.Forms.DockStyle.Right;
-            this.nextBTN.Image = global::LearningSoftware.Properties.Resources.Arrowhead_Right;
-            this.nextBTN.Location = new System.Drawing.Point(1305, 5);
-            this.nextBTN.Name = "nextBTN";
-            this.nextBTN.Size = new System.Drawing.Size(90, 90);
-            this.nextBTN.TabIndex = 0;
-            this.nextBTN.UseVisualStyleBackColor = false;
-            this.nextBTN.Click += new System.EventHandler(this.nextBTN_Click);
-            // 
             // prevBTN
             // 
             this.prevBTN.BackColor = System.Drawing.Color.Black;
@@ -228,6 +207,30 @@
             this.prevBTN.TabIndex = 1;
             this.prevBTN.UseVisualStyleBackColor = false;
             this.prevBTN.Click += new System.EventHandler(this.prevBTN_Click);
+            // 
+            // nextBTN
+            // 
+            this.nextBTN.BackColor = System.Drawing.Color.Black;
+            this.nextBTN.Dock = System.Windows.Forms.DockStyle.Right;
+            this.nextBTN.Image = global::LearningSoftware.Properties.Resources.Arrowhead_Right;
+            this.nextBTN.Location = new System.Drawing.Point(1305, 5);
+            this.nextBTN.Name = "nextBTN";
+            this.nextBTN.Size = new System.Drawing.Size(90, 90);
+            this.nextBTN.TabIndex = 0;
+            this.nextBTN.UseVisualStyleBackColor = false;
+            this.nextBTN.Click += new System.EventHandler(this.nextBTN_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.Image = global::LearningSoftware.Properties.Resources.papei_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 46);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // ΕducationalMaterialForm
             // 
@@ -243,9 +246,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ΕducationalMaterialForm";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

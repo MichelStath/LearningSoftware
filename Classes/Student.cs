@@ -8,6 +8,10 @@ namespace LearningSoftware.Classes
 {
     public class Student
     {
+        public Student()
+        {
+        }
+
         public Student(string uSERNAME,
             string pASSWORD,
             string nAME,
@@ -19,7 +23,8 @@ namespace LearningSoftware.Classes
             S_NAME = sURNAME;
         }
 
-        public int S_ID { get; }
+
+        public int S_ID { get; set; }
         public string USERNAME { get; set; }   
         public string PASSWORD { get; set; }
         public string F_NAME { get; set; }

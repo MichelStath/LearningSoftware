@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearningSoftware.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,16 @@ namespace LearningSoftware
 {
     public partial class HomeForm : Form
     {
-        public HomeForm()
+        private string currUsername;
+        Helper helper = new Helper();
+        private Student currentStudent = new Student();
+        public HomeForm(string currentUsername)
         {
             InitializeComponent();
+
+            currUsername = currentUsername;
+            currentStudent= helper.GetStudent(currUsername);
+            label1.Text = ($"Welcome: {currentStudent.F_NAME}");
         }
 
         private void button2_Click(object sender, EventArgs e)

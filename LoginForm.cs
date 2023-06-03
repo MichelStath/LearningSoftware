@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearningSoftware.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace LearningSoftware
 {
     public partial class LoginForm : Form
     {
+        Helper helper= new Helper();
         public LoginForm()
         {
             InitializeComponent();
@@ -37,8 +39,11 @@ namespace LearningSoftware
 
         private void loginBTN_Click(object sender, EventArgs e)
         {
-            var f = new HomeForm();
-            f.ShowDialog();
+            if(helper.LoginStudent(textBox1.Text.Trim(), textBox2.Text.Trim()))
+            {
+                var f = new HomeForm(textBox1.Text.Trim());
+                f.ShowDialog();
+            }
         }
     }
 }
