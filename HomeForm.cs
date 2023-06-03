@@ -19,17 +19,20 @@ namespace LearningSoftware
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            var f = new ΕducationalMaterialForm();
+            f.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            var f = new EvaluationTasksForm();
+            f.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            var f = new StatisticsForm();
+            f.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
