@@ -91,6 +91,42 @@
     <Compile Include="HomeForm.Designer.cs">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IntroPages\IntroPage1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IntroPages\IntroPage1.Designer.cs">
+      <DependentUpon>IntroPage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroPages\IntroPage2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IntroPages\IntroPage2.Designer.cs">
+      <DependentUpon>IntroPage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobsPages\JobPage1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JobsPages\JobPage1.Designer.cs">
+      <DependentUpon>JobPage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobsPages\JobPage2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JobsPages\JobPage2.Designer.cs">
+      <DependentUpon>JobPage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguagesPages\LangPage1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LanguagesPages\LangPage1.Designer.cs">
+      <DependentUpon>LangPage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguagesPages\LangPage2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LanguagesPages\LangPage2.Designer.cs">
+      <DependentUpon>LangPage2.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +141,18 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SkillsPages\SkillPage1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SkillsPages\SkillPage1.Designer.cs">
+      <DependentUpon>SkillPage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillsPages\SkillPage2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SkillsPages\SkillPage2.Designer.cs">
+      <DependentUpon>SkillPage2.cs</DependentUpon>
+    </Compile>
     <Compile Include="StatisticsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,8 +165,14 @@
     <Compile Include="ΕducationalMaterialForm.Designer.cs">
       <DependentUpon>ΕducationalMaterialForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EvaluationTasksForm.resx">
+      <DependentUpon>EvaluationTasksForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroPages\IntroPage1.resx">
+      <DependentUpon>IntroPage1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -131,9 +185,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsForm.resx">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ΕducationalMaterialForm.resx">
       <DependentUpon>ΕducationalMaterialForm.cs</DependentUpon>
@@ -156,7 +214,10 @@
     <Content Include="lsDB.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Arrowhead_Right.png" />
+    <None Include="Resources\Arrowhead_Left.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
