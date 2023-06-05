@@ -213,7 +213,7 @@ namespace LearningSoftware
             jobsDict.Add(1, jPage1);
             jobsDict.Add(2, jPage2);
 
-            homeDict.Add(1, hPage2);
+            homeDict.Add(1, hPage1);
             homeDict.Add(2, hPage2);
         }
 

@@ -209,6 +209,12 @@
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SkillsPages\SkillPage1.resx">
+      <DependentUpon>SkillPage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkillsPages\SkillPage2.resx">
+      <DependentUpon>SkillPage2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StatisticsForm.resx">
       <DependentUpon>StatisticsForm.cs</DependentUpon>
     </EmbeddedResource>
