@@ -15,6 +15,7 @@ namespace LearningSoftware.SkillsPages
         public SkillPage2()
         {
             InitializeComponent();
+            Dock = DockStyle.Fill;
         }
     }
 }
