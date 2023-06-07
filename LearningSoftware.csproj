@@ -193,6 +193,12 @@
     <EmbeddedResource Include="IntroPages\IntroPage1.resx">
       <DependentUpon>IntroPage1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JobsPages\JobPage1.resx">
+      <DependentUpon>JobPage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobsPages\JobPage2.resx">
+      <DependentUpon>JobPage2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

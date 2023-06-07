@@ -15,6 +15,7 @@ namespace LearningSoftware.JobsPages
         public JobPage2()
         {
             InitializeComponent();
+            Dock= DockStyle.Fill;  
         }
     }
 }
