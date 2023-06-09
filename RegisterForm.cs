@@ -14,7 +14,6 @@ namespace LearningSoftware
 {
     public partial class RegisterForm : Form
     {
-        Helper helper= new Helper();
         public RegisterForm()
         {
             InitializeComponent();
@@ -27,7 +26,7 @@ namespace LearningSoftware
                 textBox2.Text,
                 textBox3.Text,
                 textBox4.Text);
-            helper.RegisterStudent(s);
+            Helper.RegisterStudent(s);
             this.Close();
             
         }

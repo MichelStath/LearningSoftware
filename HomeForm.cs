@@ -13,15 +13,11 @@ namespace LearningSoftware
 {
     public partial class HomeForm : Form
     {
-        private string currUsername;
-        Helper helper = new Helper();
         private Student currentStudent = new Student();
         public HomeForm(string currentUsername)
         {
             InitializeComponent();
-
-            currUsername = currentUsername;
-            currentStudent= helper.GetStudent(currUsername);
+            currentStudent= Helper.GetStudent(currentUsername);
             label1.Text = ($"Welcome: {currentStudent.F_NAME}");
         }
 
