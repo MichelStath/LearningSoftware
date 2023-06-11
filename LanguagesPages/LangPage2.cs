@@ -15,6 +15,7 @@ namespace LearningSoftware.LanguagesPages
         public LangPage2()
         {
             InitializeComponent();
+            Dock= DockStyle.Fill;
         }
     }
 }

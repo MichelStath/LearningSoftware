@@ -28,19 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IntroPage1));
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.Location = new System.Drawing.Point(336, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(629, 35);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ΕΙΣΑΓΩΓΗ ΣΤΟ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟ\r\n\r\n";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label2.Location = new System.Drawing.Point(44, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1216, 246);
+            this.label2.TabIndex = 2;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label3.Location = new System.Drawing.Point(44, 392);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1216, 117);
+            this.label3.TabIndex = 3;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
             // IntroPage1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Fuchsia;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Name = "IntroPage1";
+            this.Size = new System.Drawing.Size(1300, 600);
             this.Load += new System.EventHandler(this.IntroPage1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

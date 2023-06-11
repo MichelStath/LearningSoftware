@@ -63,7 +63,7 @@ namespace LearningSoftware
 
         private void exitBTN_Click(object sender, EventArgs e)
         {
-            Helper.updateLessonView(currentLessonView);
+            //Helper.updateLessonView(currentLessonView);
             this.Close();
         }
 

@@ -15,6 +15,7 @@ namespace LearningSoftware.IntroPages
         public IntroPage2()
         {
             InitializeComponent();
+            Dock= DockStyle.Fill;
         }
     }
 }

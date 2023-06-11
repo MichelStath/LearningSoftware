@@ -17,6 +17,7 @@ namespace LearningSoftware.LanguagesPages
         public LangPage1()
         {
             InitializeComponent();
+            Dock= DockStyle.Fill;
             feedDict();
         }
 
@@ -36,7 +37,6 @@ namespace LearningSoftware.LanguagesPages
                 openWebBrowser(pageToShow);
             }
             else MessageBox.Show("Something gone Wrong");
-            label2.Text = lang;
         }
 
         private void feedDict()

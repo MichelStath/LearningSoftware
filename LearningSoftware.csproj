@@ -205,6 +205,9 @@
     <EmbeddedResource Include="IntroPages\IntroPage1.resx">
       <DependentUpon>IntroPage1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IntroPages\IntroPage2.resx">
+      <DependentUpon>IntroPage2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JobsPages\JobPage1.resx">
       <DependentUpon>JobPage1.cs</DependentUpon>
     </EmbeddedResource>
@@ -213,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LanguagesPages\LangPage1.resx">
       <DependentUpon>LangPage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguagesPages\LangPage2.resx">
+      <DependentUpon>LangPage2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
