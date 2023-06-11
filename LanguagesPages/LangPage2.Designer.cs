@@ -30,30 +30,30 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,93 +87,17 @@
             this.panel1.Size = new System.Drawing.Size(200, 360);
             this.panel1.TabIndex = 3;
             // 
-            // label2
+            // label10
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 30);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Ανά γενιά";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(0, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(198, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "1ης Γενιάς";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label4
-            // 
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(0, 55);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(198, 25);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Γλώσσα Μηχανής";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(0, 80);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(198, 25);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "2ης Γενιάς";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(0, 105);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(198, 25);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Assebly";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(0, 130);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(198, 25);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "3ης Γενιάς";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(0, 155);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(198, 126);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Fortran\r\nBasic\r\nPascal\r\nAda\r\nC, C++, C#\r\nJava, Visual Basic";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label10.Location = new System.Drawing.Point(0, 306);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(198, 44);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "PROLOG\r\nSQL";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label9
             // 
@@ -188,17 +112,93 @@
             this.label9.Text = "4ης Γενιάς";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label10
+            // label8
             // 
-            this.label10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(0, 306);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(198, 44);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "PROLOG\r\nSQL";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(0, 155);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(198, 126);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Fortran\r\nBasic\r\nPascal\r\nAda\r\nC, C++, C#\r\nJava, Visual Basic";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(0, 130);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(198, 25);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "3ης Γενιάς";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(0, 105);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(198, 25);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Assebly";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(0, 80);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(198, 25);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "2ης Γενιάς";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(0, 55);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(198, 25);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Γλώσσα Μηχανής";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(0, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(198, 25);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "1ης Γενιάς";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(198, 30);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Ανά γενιά";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
@@ -213,30 +213,17 @@
             this.panel2.Size = new System.Drawing.Size(213, 320);
             this.panel2.TabIndex = 4;
             // 
-            // label12
+            // label15
             // 
-            this.label12.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(0, 30);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(211, 25);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Μεταφραζόμενες";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label13
-            // 
-            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(0, 55);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(211, 127);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "Python\r\nJavaScript\r\nPHP\r\nMATLAB\r\nPerl\r\nRuby";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label15.Location = new System.Drawing.Point(0, 207);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(211, 111);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "C, C++, C#\r\nGo\r\nRust\r\nHaskell\r\nCobol";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label14
             // 
@@ -251,17 +238,43 @@
             this.label14.Text = "Μεταγλωττιζόμενες";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label15
+            // label13
             // 
-            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(0, 207);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(211, 111);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "C, C++, C#\r\nGo\r\nRust\r\nHaskell\r\nCobol";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label13.Location = new System.Drawing.Point(0, 55);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(211, 127);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Python\r\nJavaScript\r\nPHP\r\nMATLAB\r\nPerl\r\nRuby";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.Location = new System.Drawing.Point(0, 30);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(211, 25);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Μεταφραζόμενες";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label11.ForeColor = System.Drawing.Color.Red;
+            this.label11.Location = new System.Drawing.Point(0, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(211, 30);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Ανά γενιά";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
@@ -279,6 +292,56 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(213, 463);
             this.panel3.TabIndex = 5;
+            // 
+            // label24
+            // 
+            this.label24.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label24.Location = new System.Drawing.Point(0, 373);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(211, 84);
+            this.label24.TabIndex = 9;
+            this.label24.Text = "JavaScript, PHP\r\nLua\r\nBash\r\nPowerShell\r\n";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label23.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label23.Location = new System.Drawing.Point(0, 348);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(211, 25);
+            this.label23.TabIndex = 8;
+            this.label23.Text = "Scripting";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label22
+            // 
+            this.label22.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label22.Location = new System.Drawing.Point(0, 264);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(211, 84);
+            this.label22.TabIndex = 7;
+            this.label22.Text = "Java\r\nC#, Objective-C\r\nPerl\r\n";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label21.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label21.Location = new System.Drawing.Point(0, 239);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(211, 25);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "Object-Oriented";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label16
             // 
@@ -330,69 +393,6 @@
             this.label19.Text = "Functional";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label21.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(0, 239);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(211, 25);
-            this.label21.TabIndex = 6;
-            this.label21.Text = "Object-Oriented";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label22
-            // 
-            this.label22.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(0, 264);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(211, 84);
-            this.label22.TabIndex = 7;
-            this.label22.Text = "Java\r\nC#, Objective-C\r\nPerl\r\n";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label23
-            // 
-            this.label23.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label23.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(0, 348);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(211, 25);
-            this.label23.TabIndex = 8;
-            this.label23.Text = "Scripting";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label24
-            // 
-            this.label24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(0, 373);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(211, 84);
-            this.label24.TabIndex = 9;
-            this.label24.Text = "JavaScript, PHP\r\nLua\r\nBash\r\nPowerShell\r\n";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(0, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(211, 30);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Ανά γενιά";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label20
             // 
             this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -410,6 +410,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
