@@ -8,6 +8,10 @@ namespace LearningSoftware.Classes
 {
     public class LessonView
     {
+        public LessonView()
+        {
+        }
+
         public LessonView(int iD, int lESSON_1, int lESSON_2, int lESSON_3, int lESSON_4)
         {
             S_ID = iD;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
@@ -69,6 +70,20 @@ namespace LearningSoftware.Classes
             List<Student> st = con.Query<Student>(query, null).AsList();
             var sid = st.Where(x => x.USERNAME.Equals(username)).AsList().First();
             return sid;
+        }
+        public static LessonView GetLessonView(int SID)
+        {
+            //works
+            string query = $"SELECT DISTINCT * FROM LESSONVIEW";
+            List<LessonView> st = con.Query<LessonView>(query, null).AsList();
+            var sid = st.Where(x => x.S_ID.Equals(SID)).AsList().First();
+            return sid;
+        }
+
+        public static void updateLessonView(LessonView lv)
+        {
+            string sql = "update [LESSONVIEW] set LESSON_1 = @LESSON_1, LESSON_2 = @LESSON_2, LESSON_3 = @LESSON_3, LESSON_4 = @LESSON_5  WHERE S_ID = @S_ID";
+            var results = con.Execute(sql, lv);
         }
 
     }

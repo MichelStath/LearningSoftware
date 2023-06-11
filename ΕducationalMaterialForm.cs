@@ -42,6 +42,8 @@ namespace LearningSoftware
         public JobPage2 jPage2 = new JobPage2();
         public HomePage1 hPage1 = new HomePage1();
         public HomePage2 hPage2 = new HomePage2();
+        public Student currentStudent = new Student();
+        public LessonView currentLessonView = new LessonView();
 
         int currPage = 1;
         CategoriesEnum currCategory= CategoriesEnum.HOME;
@@ -49,16 +51,19 @@ namespace LearningSoftware
         #endregion
 
 
-        public ΕducationalMaterialForm()
+        public ΕducationalMaterialForm(Student st)
         {
             InitializeComponent();
             FeedDictionary();
             showPage(currPage, currCategory);
+            currentStudent = st;
+            currentLessonView = Helper.GetLessonView(currentStudent.S_ID);
         }
 
 
         private void exitBTN_Click(object sender, EventArgs e)
         {
+            Helper.updateLessonView(currentLessonView);
             this.Close();
         }
 

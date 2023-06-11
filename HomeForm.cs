@@ -23,7 +23,7 @@ namespace LearningSoftware
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var f = new ΕducationalMaterialForm();
+            var f = new ΕducationalMaterialForm(currentStudent);
             f.ShowDialog();
         }
 
