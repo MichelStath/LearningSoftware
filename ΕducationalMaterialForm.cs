@@ -69,6 +69,8 @@ namespace LearningSoftware
 
         private void introBTN_Click(object sender, EventArgs e)
         {
+            currentLessonView.LESSON_1 = 1;
+            Helper.updateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
@@ -79,6 +81,8 @@ namespace LearningSoftware
 
         private void langBTN_Click(object sender, EventArgs e)
         {
+            currentLessonView.LESSON_2 = 1;
+            Helper.updateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
@@ -89,6 +93,8 @@ namespace LearningSoftware
 
         private void skilsBTN_Click(object sender, EventArgs e)
         {
+            currentLessonView.LESSON_3 = 1;
+            Helper.updateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
@@ -99,6 +105,8 @@ namespace LearningSoftware
 
         private void jobsBTN_Click(object sender, EventArgs e)
         {
+            currentLessonView.LESSON_4 = 1;
+            Helper.updateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;

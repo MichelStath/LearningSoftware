@@ -82,7 +82,7 @@ namespace LearningSoftware.Classes
 
         public static void updateLessonView(LessonView lv)
         {
-            string sql = "update [LESSONVIEW] set LESSON_1 = @LESSON_1, LESSON_2 = @LESSON_2, LESSON_3 = @LESSON_3, LESSON_4 = @LESSON_5  WHERE S_ID = @S_ID";
+            string sql = "update [LESSONVIEW] set LESSON_1 = @LESSON_1, LESSON_2 = @LESSON_2, LESSON_3 = @LESSON_3, LESSON_4 = @LESSON_4  WHERE S_ID = @S_ID";
             var results = con.Execute(sql, lv);
         }
 
