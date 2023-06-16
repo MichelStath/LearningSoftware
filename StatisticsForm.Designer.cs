@@ -31,7 +31,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.exitBTN = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,6 +60,7 @@
             this.userJobsLB = new System.Windows.Forms.Label();
             this.userLangLB = new System.Windows.Forms.Label();
             this.userIntroLB = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -104,17 +104,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(467, 39);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "TOTAL STATISTICS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -146,9 +135,9 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label3.Location = new System.Drawing.Point(0, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 31);
+            this.label3.Size = new System.Drawing.Size(258, 31);
             this.label3.TabIndex = 12;
-            this.label3.Text = "VIEW LESSONS\r\n";
+            this.label3.Text = "View Lessons: Total";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel3
@@ -346,9 +335,9 @@
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label8.Location = new System.Drawing.Point(0, 194);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(154, 31);
+            this.label8.Size = new System.Drawing.Size(304, 31);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Username :";
+            this.label8.Text = "VIEW LESSONS (Total)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label9
@@ -486,6 +475,17 @@
             this.userIntroLB.Text = "VIEW LESSONS\r\n";
             this.userIntroLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(467, 39);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "TOTAL STATISTICS";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // StatisticsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -514,7 +514,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button exitBTN;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -544,5 +543,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label1;
     }
 }

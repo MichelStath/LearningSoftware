@@ -13,13 +13,14 @@ namespace LearningSoftware
 {
     public partial class StatisticsForm : Form
     {
-        private Student currentStudent = new Student(); 
+        public Student currentStudent = new Student(); 
         private List<LessonView> allLessonViewList = new List<LessonView>();
         public StatisticsForm(Student st)
         {
             InitializeComponent();
-            LoadStatistics();
             currentStudent = st;
+            LoadStatistics();
+            label8.Text = $"View Lessons: {currentStudent.USERNAME}";
         }
 
         private void exitBTN_Click(object sender, EventArgs e)
@@ -36,13 +37,13 @@ namespace LearningSoftware
             skillsLB.Text = allLessonViewList.Select(x => x.LESSON_4).Sum().ToString();
             totalLB.Text = allLessonViewList.Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString();
 
-            userIntroLB.Text = allLessonViewList.Where(x => x.S_ID == currentStudent.S_ID).Select(x => x.LESSON_1).First().ToString(); 
-            userLangLB.Text = allLessonViewList.Where(x => x.S_ID == currentStudent.S_ID).Select(x => x.LESSON_2).First().ToString(); 
-            userJobsLB.Text = allLessonViewList.Where(x => x.S_ID == currentStudent.S_ID).Select(x => x.LESSON_3).First().ToString(); 
-            userSKillsLB.Text = allLessonViewList.Where(x => x.S_ID == currentStudent.S_ID).Select(x => x.LESSON_4).First().ToString(); 
-            userTotalLB.Text = allLessonViewList.Where(x => x.S_ID == currentStudent.S_ID).Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString(); 
+            userIntroLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1).Sum().ToString(); 
+            userLangLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_2).Sum().ToString(); 
+            userJobsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_3).Sum().ToString(); 
+            userSKillsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_4).Sum().ToString(); 
+            userTotalLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString(); 
         
-        
+
         }
     }
 }
