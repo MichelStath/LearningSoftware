@@ -35,7 +35,7 @@ namespace LearningSoftware
 
         private void button4_Click(object sender, EventArgs e)
         {
-            var f = new StatisticsForm();
+            var f = new StatisticsForm(currentStudent);
             f.ShowDialog();
         }
 

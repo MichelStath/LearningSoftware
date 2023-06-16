@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -84,6 +85,13 @@ namespace LearningSoftware.Classes
         {
             string sql = "update [LESSONVIEW] set LESSON_1 = @LESSON_1, LESSON_2 = @LESSON_2, LESSON_3 = @LESSON_3, LESSON_4 = @LESSON_4  WHERE S_ID = @S_ID";
             var results = con.Execute(sql, lv);
+        }
+
+        public static List<LessonView> GetAllLessonView()
+        {
+            string query = $"SELECT * FROM LESSONVIEW";
+            List<LessonView> st = con.Query<LessonView>(query, null).AsList();
+            return st;
         }
 
     }
