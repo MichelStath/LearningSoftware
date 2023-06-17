@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Helper.cs" />
+    <Compile Include="Classes\JobFinderClass.cs" />
     <Compile Include="Classes\LessonView.cs" />
     <Compile Include="Classes\Student.cs" />
     <Compile Include="Classes\Test.cs" />

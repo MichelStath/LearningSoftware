@@ -93,7 +93,7 @@ namespace LearningSoftware
 
         private void button2_Click(object sender, EventArgs e)
         {
-            JobFinderForm f = new JobFinderForm();
+            JobFinderForm f = new JobFinderForm(currentStudent);
             f.ShowDialog();
         }
     }
