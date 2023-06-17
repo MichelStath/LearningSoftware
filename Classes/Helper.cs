@@ -102,5 +102,12 @@ namespace LearningSoftware.Classes
             var result = con.Execute(insertQuery, lv);
         }
 
+        public static List<Test> GetAllTests()
+        {
+            string query = $"SELECT * FROM TESTS";
+            List<Test> st = con.Query<Test>(query, null).AsList();
+            return st;
+        }
+
     }
 }

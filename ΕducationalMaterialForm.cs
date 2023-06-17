@@ -34,10 +34,10 @@ namespace LearningSoftware
         public Dictionary<int, UserControl> homeDict = new Dictionary<int, UserControl>();
         public IntroPage1 iPage1 = new IntroPage1();
         public IntroPage2 iPage2 = new IntroPage2();
-        public LangPage1 lPage1 = new LangPage1();  
+        public LangPage1 lPage1 = new LangPage1();
         public LangPage2 lPage2 = new LangPage2();
-        public SkillPage1 sPage1= new SkillPage1();
-        public SkillPage2 sPage2= new SkillPage2();
+        public SkillPage1 sPage1 = new SkillPage1();
+        public SkillPage2 sPage2 = new SkillPage2();
         public JobPage1 jPage1 = new JobPage1();
         public JobPage2 jPage2 = new JobPage2();
         public HomePage1 hPage1 = new HomePage1();
@@ -46,7 +46,7 @@ namespace LearningSoftware
         public LessonView currentLessonView = new LessonView();
 
         int currPage = 1;
-        CategoriesEnum currCategory= CategoriesEnum.HOME;
+        CategoriesEnum currCategory = CategoriesEnum.HOME;
 
         #endregion
 
@@ -69,50 +69,50 @@ namespace LearningSoftware
 
         private void introBTN_Click(object sender, EventArgs e)
         {
-            currentLessonView.LESSON_1 = 1;
+            currentLessonView.LESSON_1 = currentLessonView.LESSON_1 + 1;
             Helper.UpdateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
-            currCategory= CategoriesEnum.INTRO;
+            currCategory = CategoriesEnum.INTRO;
             clearMainPanel();
             showPage(currPage, currCategory);
         }
 
         private void langBTN_Click(object sender, EventArgs e)
         {
-            currentLessonView.LESSON_2 = 1;
+            currentLessonView.LESSON_2 = currentLessonView.LESSON_2 + 1;
             Helper.UpdateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
-            currCategory= CategoriesEnum.LANGUAGES;
+            currCategory = CategoriesEnum.LANGUAGES;
             clearMainPanel();
             showPage(currPage, currCategory);
         }
 
         private void skilsBTN_Click(object sender, EventArgs e)
         {
-            currentLessonView.LESSON_3 = 1;
+            currentLessonView.LESSON_3 = currentLessonView.LESSON_3 + 1;
             Helper.UpdateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
-            currCategory= CategoriesEnum.SKILLS;
+            currCategory = CategoriesEnum.SKILLS;
             clearMainPanel();
             showPage(currPage, currCategory);
         }
 
         private void jobsBTN_Click(object sender, EventArgs e)
         {
-            currentLessonView.LESSON_4 = 1;
+            currentLessonView.LESSON_4 = currentLessonView.LESSON_4 + 1;
             Helper.UpdateLessonView(currentLessonView);
             nextBTN.Enabled = true;
             prevBTN.Enabled = false;
             currPage = 1;
-            currCategory= CategoriesEnum.JOBS;
+            currCategory = CategoriesEnum.JOBS;
             clearMainPanel();
-            showPage(currPage,currCategory);
+            showPage(currPage, currCategory);
         }
 
         private void nextBTN_Click(object sender, EventArgs e)
@@ -128,7 +128,7 @@ namespace LearningSoftware
                 prevBTN.Enabled = true;
             }
             clearMainPanel();
-            showPage(currPage,currCategory);
+            showPage(currPage, currCategory);
         }
 
         private void prevBTN_Click(object sender, EventArgs e)
@@ -153,7 +153,7 @@ namespace LearningSoftware
         }
 
         //ready
-        private void showPage(int page , CategoriesEnum category)
+        private void showPage(int page, CategoriesEnum category)
         {
 
             switch (category)
@@ -161,10 +161,11 @@ namespace LearningSoftware
                 case CategoriesEnum.INTRO:
                     var pageToShow = new UserControl();
                     bool hasValue = introDict.TryGetValue(page, out pageToShow);
-                    if (hasValue) {
+                    if (hasValue)
+                    {
                         mainPanel.Controls.Add(pageToShow);
                         //pageToShow.Show();
-                    } 
+                    }
                     else Console.WriteLine("Something gone wrong");
                     break;
                 case CategoriesEnum.LANGUAGES:
@@ -220,7 +221,7 @@ namespace LearningSoftware
             languagesDict.Add(1, lPage1);
             languagesDict.Add(2, lPage2);
 
-            skillsDict.Add(1, sPage1);  
+            skillsDict.Add(1, sPage1);
             skillsDict.Add(2, sPage2);
 
             jobsDict.Add(1, jPage1);
