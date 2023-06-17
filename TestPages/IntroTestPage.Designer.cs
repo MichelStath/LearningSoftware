@@ -28,9 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.asn3LB = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.gradesLB = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.q1TB = new System.Windows.Forms.TextBox();
@@ -41,6 +46,10 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.q3TB = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.q2TB = new System.Windows.Forms.TextBox();
@@ -51,8 +60,8 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.q4TB = new System.Windows.Forms.TextBox();
@@ -63,59 +72,102 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.q3TB = new System.Windows.Forms.TextBox();
-            this.asn3LB = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.gradesLB = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // label12
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1400, 48);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Intro Test";
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Location = new System.Drawing.Point(0, 138);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(570, 38);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Write Your answer below";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // button1
+            // asn3LB
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button1.Location = new System.Drawing.Point(1268, 508);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 65);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.asn3LB.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.asn3LB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.asn3LB.Location = new System.Drawing.Point(0, 208);
+            this.asn3LB.Name = "asn3LB";
+            this.asn3LB.Size = new System.Drawing.Size(570, 48);
+            this.asn3LB.TabIndex = 6;
+            this.asn3LB.Text = "Question 1";
             // 
-            // button2
+            // label28
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button2.Location = new System.Drawing.Point(1162, 281);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 65);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Check";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label28.Location = new System.Drawing.Point(315, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(44, 58);
+            this.label28.TabIndex = 9;
+            this.label28.Text = "c) a,c";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label22.Location = new System.Drawing.Point(365, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(202, 58);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "d) support";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label21.Location = new System.Drawing.Point(3, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(150, 58);
+            this.label21.TabIndex = 5;
+            this.label21.Text = "a) debugging";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label20.Location = new System.Drawing.Point(159, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(150, 58);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "b) gaming";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // gradesLB
+            // 
+            this.gradesLB.AutoSize = true;
+            this.gradesLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.gradesLB.Location = new System.Drawing.Point(10, 648);
+            this.gradesLB.Name = "gradesLB";
+            this.gradesLB.Size = new System.Drawing.Size(82, 29);
+            this.gradesLB.TabIndex = 24;
+            this.gradesLB.Text = "grade:";
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label7.Location = new System.Drawing.Point(0, 48);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(570, 48);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Σκοπός του προγραμματισμού ειναι :";
             // 
             // panel1
             // 
@@ -126,10 +178,10 @@
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(7, 51);
+            this.panel1.Location = new System.Drawing.Point(7, 123);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(572, 258);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 20;
             // 
             // label10
             // 
@@ -231,6 +283,48 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Question 1";
             // 
+            // q3TB
+            // 
+            this.q3TB.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.q3TB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.q3TB.Location = new System.Drawing.Point(0, 176);
+            this.q3TB.Name = "q3TB";
+            this.q3TB.Size = new System.Drawing.Size(570, 32);
+            this.q3TB.TabIndex = 8;
+            this.q3TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button2.Location = new System.Drawing.Point(1162, 353);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 65);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Check";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button1.Location = new System.Drawing.Point(1268, 580);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 65);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Submit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1400, 48);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Intro Test";
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -240,10 +334,10 @@
             this.panel2.Controls.Add(this.tableLayoutPanel2);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(584, 51);
+            this.panel2.Location = new System.Drawing.Point(584, 123);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(572, 258);
-            this.panel2.TabIndex = 5;
+            this.panel2.TabIndex = 21;
             // 
             // label11
             // 
@@ -351,16 +445,6 @@
             this.label17.Text = "b) gaming";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label7.Location = new System.Drawing.Point(0, 48);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(570, 48);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Σκοπός του προγραμματισμού ειναι :";
-            // 
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -371,6 +455,25 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Question 2";
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel3.Controls.Add(this.label28, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label22, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label21, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label20, 0, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 80);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(570, 58);
+            this.tableLayoutPanel3.TabIndex = 5;
+            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -380,10 +483,10 @@
             this.panel3.Controls.Add(this.tableLayoutPanel4);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(584, 315);
+            this.panel3.Location = new System.Drawing.Point(584, 387);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(572, 258);
-            this.panel3.TabIndex = 7;
+            this.panel3.TabIndex = 23;
             // 
             // label13
             // 
@@ -485,113 +588,6 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Question 4";
             // 
-            // panel4
-            // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label12);
-            this.panel4.Controls.Add(this.q3TB);
-            this.panel4.Controls.Add(this.asn3LB);
-            this.panel4.Controls.Add(this.tableLayoutPanel3);
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(7, 315);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(572, 258);
-            this.panel4.TabIndex = 6;
-            // 
-            // label12
-            // 
-            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Location = new System.Drawing.Point(0, 138);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(570, 38);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "Write Your answer below";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // q3TB
-            // 
-            this.q3TB.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.q3TB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.q3TB.Location = new System.Drawing.Point(0, 176);
-            this.q3TB.Name = "q3TB";
-            this.q3TB.Size = new System.Drawing.Size(570, 32);
-            this.q3TB.TabIndex = 8;
-            this.q3TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // asn3LB
-            // 
-            this.asn3LB.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.asn3LB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.asn3LB.Location = new System.Drawing.Point(0, 208);
-            this.asn3LB.Name = "asn3LB";
-            this.asn3LB.Size = new System.Drawing.Size(570, 48);
-            this.asn3LB.TabIndex = 6;
-            this.asn3LB.Text = "Question 1";
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 4;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel3.Controls.Add(this.label28, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label22, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label21, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label20, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 80);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(570, 58);
-            this.tableLayoutPanel3.TabIndex = 5;
-            // 
-            // label28
-            // 
-            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label28.Location = new System.Drawing.Point(315, 0);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 58);
-            this.label28.TabIndex = 9;
-            this.label28.Text = "c) a,c";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label22
-            // 
-            this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label22.Location = new System.Drawing.Point(365, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(202, 58);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "d) support";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label21.Location = new System.Drawing.Point(3, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(150, 58);
-            this.label21.TabIndex = 5;
-            this.label21.Text = "a) debugging";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label20.Location = new System.Drawing.Point(159, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(150, 58);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "b) gaming";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
@@ -612,28 +608,32 @@
             this.label5.TabIndex = 1;
             this.label5.Text = "Question 3";
             // 
-            // gradesLB
+            // panel4
             // 
-            this.gradesLB.AutoSize = true;
-            this.gradesLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.gradesLB.Location = new System.Drawing.Point(10, 576);
-            this.gradesLB.Name = "gradesLB";
-            this.gradesLB.Size = new System.Drawing.Size(82, 29);
-            this.gradesLB.TabIndex = 8;
-            this.gradesLB.Text = "grade:";
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.q3TB);
+            this.panel4.Controls.Add(this.asn3LB);
+            this.panel4.Controls.Add(this.tableLayoutPanel3);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Location = new System.Drawing.Point(7, 387);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(572, 258);
+            this.panel4.TabIndex = 22;
             // 
             // IntroTestPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gradesLB);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
             this.Name = "IntroTestPage";
             this.Size = new System.Drawing.Size(1400, 700);
             this.Load += new System.EventHandler(this.IntroTestPage_Load);
@@ -643,12 +643,12 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -656,52 +656,52 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label asn1LB;
-        private System.Windows.Forms.Label asn2LB;
-        private System.Windows.Forms.Label asn4LB;
-        private System.Windows.Forms.Label asn3LB;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox q1TB;
-        private System.Windows.Forms.TextBox q2TB;
-        private System.Windows.Forms.TextBox q4TB;
-        private System.Windows.Forms.TextBox q3TB;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label asn3LB;
+        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label gradesLB;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox q1TB;
+        private System.Windows.Forms.Label asn1LB;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox q3TB;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox q2TB;
+        private System.Windows.Forms.Label asn2LB;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label gradesLB;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox q4TB;
+        private System.Windows.Forms.Label asn4LB;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel4;
     }
 }

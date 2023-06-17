@@ -17,7 +17,6 @@ namespace LearningSoftware
     public partial class EvaluationTasksForm : Form
     {
 
-        TestEnum currentTest = new TestEnum();
         Student currentStudent = new Student();
 
         public EvaluationTasksForm(Student student)
@@ -33,37 +32,58 @@ namespace LearningSoftware
 
         private void introBTN_Click(object sender, EventArgs e)
         {
-            clearMainPanel();
-            currentTest = TestEnum.INTRO;
-            IntroTestPage introtestPage = new IntroTestPage(currentStudent);
-            mainPanel.Controls.Add(introtestPage);
+            DialogResult dialogResult = MessageBox.Show("Unsubmited test will be lost. \nDo you want to continue ?", "WARNING", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                clearMainPanel();
+                IntroTestPage introtestPage = new IntroTestPage(currentStudent);
+                mainPanel.Controls.Add(introtestPage);
+            }
         }
 
         private void langBTN_Click(object sender, EventArgs e)
         {
-            clearMainPanel();
-            currentTest = TestEnum.LANG;
+            DialogResult dialogResult = MessageBox.Show("Unsubmited test will be lost. \nDo you want to continue ?", "WARNING", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                clearMainPanel();
+                LangTestPage langTestPage = new LangTestPage(currentStudent);
+                mainPanel.Controls.Add(langTestPage);
+            }
         }
 
         private void skilsBTN_Click(object sender, EventArgs e)
         {
-            clearMainPanel();
-
-            currentTest = TestEnum.SKILLS;
+            DialogResult dialogResult = MessageBox.Show("Unsubmited test will be lost. \nDo you want to continue ?", "WARNING", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                clearMainPanel();
+                SkillsTestPage skillsTestPage = new SkillsTestPage(currentStudent);
+                mainPanel.Controls.Add(skillsTestPage);
+            }
         }
 
         private void jobsBTN_Click(object sender, EventArgs e)
         {
-            clearMainPanel();
+            DialogResult dialogResult = MessageBox.Show("Unsubmited test will be lost. \nDo you want to continue ?", "WARNING", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                clearMainPanel();
+                JobsTestPage jobsTestPage = new JobsTestPage(currentStudent);
+                mainPanel.Controls.Add(jobsTestPage);
+            }
 
-            currentTest = TestEnum.JOBS;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            clearMainPanel();
-
-            currentTest = TestEnum.TOTAL;
+            DialogResult dialogResult = MessageBox.Show("Unsubmited test will be lost. \nDo you want to continue ?", "WARNING", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                clearMainPanel();
+                TotalTestPage jobsTestPage = new TotalTestPage(currentStudent);
+                mainPanel.Controls.Add(jobsTestPage);
+            }
         }
         private void clearMainPanel()
         {

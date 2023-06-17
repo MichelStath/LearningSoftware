@@ -30,7 +30,7 @@ namespace LearningSoftware.TestPages
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            grade = 0;
             canSubmit = true;
             string ans1 = q1TB.Text.Trim();
             string ans2 = q2TB.Text.Trim();
@@ -55,8 +55,8 @@ namespace LearningSoftware.TestPages
 
                 if (ans2 == "d")
                 {
-                    asn1LB.Text = "Σωστή απάντηση";
-                    asn1LB.ForeColor = Color.Green;
+                    asn2LB.Text = "Σωστή απάντηση";
+                    asn2LB.ForeColor = Color.Green;
                     grade += 25;
                 }
                 else
@@ -93,7 +93,6 @@ namespace LearningSoftware.TestPages
                 }
 
                 gradesLB.Text = $"Your grades are: {grade}";
-
             }
             else
             {
@@ -102,6 +101,21 @@ namespace LearningSoftware.TestPages
             }
 
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (canSubmit)
+            {
+                Helper.AddTestGrade(currentStudent.S_ID, TestEnum.INTRO, grade);
+                MessageBox.Show("Your test has been submited!", "Notification");
+                unLockTB();
+                clearAll();
+            }
+            else
+            {
+                MessageBox.Show("You must Check your answers first!", "Warning");
+            }
         }
 
         private void lockTB()
@@ -138,23 +152,8 @@ namespace LearningSoftware.TestPages
             asn4LB.Text = "";
             asn4LB.ForeColor = Color.Black;
 
-            canSubmit= false;
+            canSubmit = false;
 
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (canSubmit)
-            {
-                Helper.AddTestGrade(currentStudent.S_ID, TestEnum.INTRO, grade);
-                MessageBox.Show("Your test has been submited!", "Notification");
-                unLockTB();
-                clearAll();
-            }
-            else
-            {
-                MessageBox.Show("You must Check your answers first!", "Warning");
-            }
-        }
-
     }
 }
