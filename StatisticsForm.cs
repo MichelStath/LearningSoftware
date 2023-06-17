@@ -21,6 +21,8 @@ namespace LearningSoftware
             currentStudent = st;
             LoadStatistics();
             label8.Text = $"View Lessons: {currentStudent.USERNAME}";
+            label30.Text = $"Test Grades: {currentStudent.USERNAME}";
+            label20.Text = $"Test Grades avg: {currentStudent.USERNAME}";
         }
 
         private void exitBTN_Click(object sender, EventArgs e)
@@ -31,12 +33,13 @@ namespace LearningSoftware
         private void LoadStatistics()
         {
             allLessonViewList = Helper.GetAllLessonView();
+            //VIEW LESSONS TOTAL
             introLB.Text = allLessonViewList.Select(x => x.LESSON_1).Sum().ToString();
             langLB.Text = allLessonViewList.Select(x => x.LESSON_2).Sum().ToString();
             jobsLB.Text = allLessonViewList.Select(x => x.LESSON_3).Sum().ToString();
             skillsLB.Text = allLessonViewList.Select(x => x.LESSON_4).Sum().ToString();
             totalLB.Text = allLessonViewList.Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString();
-
+            //VIEW LESSONS (USER)
             userIntroLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1).Sum().ToString(); 
             userLangLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_2).Sum().ToString(); 
             userJobsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_3).Sum().ToString(); 

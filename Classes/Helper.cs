@@ -57,6 +57,11 @@ namespace LearningSoftware.Classes
                 insertQuery = @"INSERT INTO [LESSONVIEW]([S_ID], [LESSON_1], [LESSON_2], [LESSON_3], [LESSON_4]) VALUES (@S_ID, @LESSON_1, @LESSON_2, @LESSON_3, @LESSON_4)";
                 LessonView lv = new LessonView(sid, 0, 0, 0, 0);
                 var result2 = con.Execute(insertQuery, lv);
+
+                //set TEST to 0 
+                insertQuery = @"INSERT INTO [TEST]([S_ID], [TEST_1], [TEST_2], [TEST_3], [TEST_4], [TEST_T]) VALUES (@S_ID, @TEST_1, @TEST_2, @TEST_3, @TEST_4, @TEST_T)";
+                Test tst = new Test(sid, 0, 0, 0, 0, 0);
+                var result3 = con.Execute(insertQuery, tst);
             }
             else
             {

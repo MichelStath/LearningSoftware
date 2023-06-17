@@ -89,6 +89,7 @@
     <Compile Include="Classes\Helper.cs" />
     <Compile Include="Classes\LessonView.cs" />
     <Compile Include="Classes\Student.cs" />
+    <Compile Include="Classes\Test.cs" />
     <Compile Include="EvaluationTasksForm.cs">
       <SubType>Form</SubType>
     </Compile>
