@@ -182,6 +182,36 @@
     <Compile Include="StatisticsForm.Designer.cs">
       <DependentUpon>StatisticsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestPages\IntroTestPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPages\IntroTestPage.Designer.cs">
+      <DependentUpon>IntroTestPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPages\JobsTestPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPages\JobsTestPage.Designer.cs">
+      <DependentUpon>JobsTestPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPages\LangTestPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPages\LangTestPage.Designer.cs">
+      <DependentUpon>LangTestPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPages\SkillsTestPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPages\SkillsTestPage.Designer.cs">
+      <DependentUpon>SkillsTestPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPages\TotalTestPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestPages\TotalTestPage.Designer.cs">
+      <DependentUpon>TotalTestPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="WebBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +275,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StatisticsForm.resx">
       <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPages\IntroTestPage.resx">
+      <DependentUpon>IntroTestPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPages\JobsTestPage.resx">
+      <DependentUpon>JobsTestPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPages\LangTestPage.resx">
+      <DependentUpon>LangTestPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPages\SkillsTestPage.resx">
+      <DependentUpon>SkillsTestPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPages\TotalTestPage.resx">
+      <DependentUpon>TotalTestPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WebBrowser.resx">
       <DependentUpon>WebBrowser.cs</DependentUpon>

@@ -63,6 +63,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.generalTestUserAVGLB = new System.Windows.Forms.Label();
+            this.skillsTestUserAVGLB = new System.Windows.Forms.Label();
+            this.jobsTestUserAVGLB = new System.Windows.Forms.Label();
+            this.langTestUserAVGLB = new System.Windows.Forms.Label();
+            this.introTestUserAVGLB = new System.Windows.Forms.Label();
+            this.splitter8 = new System.Windows.Forms.Splitter();
+            this.splitter9 = new System.Windows.Forms.Splitter();
             this.generalTestUserLB = new System.Windows.Forms.Label();
             this.skillsTestUserLB = new System.Windows.Forms.Label();
             this.jobsTestUserLB = new System.Windows.Forms.Label();
@@ -76,6 +83,13 @@
             this.langTestTotalLB = new System.Windows.Forms.Label();
             this.testIntroTotalLB = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.splitter7 = new System.Windows.Forms.Splitter();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -90,49 +104,49 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.splitter7 = new System.Windows.Forms.Splitter();
-            this.generalTestUserAVGLB = new System.Windows.Forms.Label();
-            this.skillsTestUserAVGLB = new System.Windows.Forms.Label();
-            this.jobsTestUserAVGLB = new System.Windows.Forms.Label();
-            this.langTestUserAVGLB = new System.Windows.Forms.Label();
-            this.introTestUserAVGLB = new System.Windows.Forms.Label();
-            this.splitter8 = new System.Windows.Forms.Splitter();
-            this.splitter9 = new System.Windows.Forms.Splitter();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.splitter12 = new System.Windows.Forms.Splitter();
+            this.splitter11 = new System.Windows.Forms.Splitter();
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.splitter10 = new System.Windows.Forms.Splitter();
             this.label82 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
@@ -140,20 +154,6 @@
             this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
-            this.splitter10 = new System.Windows.Forms.Splitter();
-            this.splitter11 = new System.Windows.Forms.Splitter();
-            this.label39 = new System.Windows.Forms.Label();
-            this.splitter12 = new System.Windows.Forms.Splitter();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -163,10 +163,10 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -630,6 +630,86 @@
             this.panel6.Size = new System.Drawing.Size(87, 619);
             this.panel6.TabIndex = 14;
             // 
+            // generalTestUserAVGLB
+            // 
+            this.generalTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.generalTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.generalTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.generalTestUserAVGLB.Location = new System.Drawing.Point(0, 570);
+            this.generalTestUserAVGLB.Name = "generalTestUserAVGLB";
+            this.generalTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
+            this.generalTestUserAVGLB.TabIndex = 32;
+            this.generalTestUserAVGLB.Text = "VIEW LESSONS\r\n";
+            this.generalTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // skillsTestUserAVGLB
+            // 
+            this.skillsTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.skillsTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.skillsTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.skillsTestUserAVGLB.Location = new System.Drawing.Point(0, 540);
+            this.skillsTestUserAVGLB.Name = "skillsTestUserAVGLB";
+            this.skillsTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
+            this.skillsTestUserAVGLB.TabIndex = 31;
+            this.skillsTestUserAVGLB.Text = "VIEW LESSONS\r\n";
+            this.skillsTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // jobsTestUserAVGLB
+            // 
+            this.jobsTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.jobsTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.jobsTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.jobsTestUserAVGLB.Location = new System.Drawing.Point(0, 510);
+            this.jobsTestUserAVGLB.Name = "jobsTestUserAVGLB";
+            this.jobsTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
+            this.jobsTestUserAVGLB.TabIndex = 30;
+            this.jobsTestUserAVGLB.Text = "VIEW LESSONS\r\n";
+            this.jobsTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // langTestUserAVGLB
+            // 
+            this.langTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.langTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.langTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.langTestUserAVGLB.Location = new System.Drawing.Point(0, 480);
+            this.langTestUserAVGLB.Name = "langTestUserAVGLB";
+            this.langTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
+            this.langTestUserAVGLB.TabIndex = 29;
+            this.langTestUserAVGLB.Text = "VIEW LESSONS\r\n";
+            this.langTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // introTestUserAVGLB
+            // 
+            this.introTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.introTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.introTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.introTestUserAVGLB.Location = new System.Drawing.Point(0, 450);
+            this.introTestUserAVGLB.Name = "introTestUserAVGLB";
+            this.introTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
+            this.introTestUserAVGLB.TabIndex = 28;
+            this.introTestUserAVGLB.Text = "VIEW LESSONS\r\n";
+            this.introTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // splitter8
+            // 
+            this.splitter8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter8.Enabled = false;
+            this.splitter8.Location = new System.Drawing.Point(0, 419);
+            this.splitter8.Name = "splitter8";
+            this.splitter8.Size = new System.Drawing.Size(85, 31);
+            this.splitter8.TabIndex = 27;
+            this.splitter8.TabStop = false;
+            // 
+            // splitter9
+            // 
+            this.splitter9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter9.Enabled = false;
+            this.splitter9.Location = new System.Drawing.Point(0, 375);
+            this.splitter9.Name = "splitter9";
+            this.splitter9.Size = new System.Drawing.Size(85, 44);
+            this.splitter9.TabIndex = 26;
+            this.splitter9.TabStop = false;
+            // 
             // generalTestUserLB
             // 
             this.generalTestUserLB.Dock = System.Windows.Forms.DockStyle.Top;
@@ -797,6 +877,94 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(339, 619);
             this.panel7.TabIndex = 13;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label15.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label15.Location = new System.Drawing.Point(0, 574);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(152, 31);
+            this.label15.TabIndex = 31;
+            this.label15.Text = "GENERAL:";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label16.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label16.Location = new System.Drawing.Point(0, 543);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(114, 31);
+            this.label16.TabIndex = 30;
+            this.label16.Text = "SKILLS:";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label17.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label17.Location = new System.Drawing.Point(0, 512);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(93, 31);
+            this.label17.TabIndex = 29;
+            this.label17.Text = "JOBS:";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label18.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label18.Location = new System.Drawing.Point(0, 481);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(191, 31);
+            this.label18.TabIndex = 28;
+            this.label18.Text = "LANGUAGES:";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label19.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label19.Location = new System.Drawing.Point(0, 450);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(108, 31);
+            this.label19.TabIndex = 27;
+            this.label19.Text = "INTRO:";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label20.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label20.Location = new System.Drawing.Point(0, 419);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(311, 31);
+            this.label20.TabIndex = 26;
+            this.label20.Text = "Test grades: (username)";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // splitter7
+            // 
+            this.splitter7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter7.Enabled = false;
+            this.splitter7.Location = new System.Drawing.Point(0, 380);
+            this.splitter7.Name = "splitter7";
+            this.splitter7.Size = new System.Drawing.Size(337, 39);
+            this.splitter7.TabIndex = 25;
+            this.splitter7.TabStop = false;
             // 
             // label25
             // 
@@ -975,174 +1143,6 @@
             this.label37.Text = "Test Statistics";
             this.label37.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label15.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label15.Location = new System.Drawing.Point(0, 574);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(152, 31);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "GENERAL:";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label16.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label16.Location = new System.Drawing.Point(0, 543);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(114, 31);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "SKILLS:";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label17.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label17.Location = new System.Drawing.Point(0, 512);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(93, 31);
-            this.label17.TabIndex = 29;
-            this.label17.Text = "JOBS:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label18.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label18.Location = new System.Drawing.Point(0, 481);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(191, 31);
-            this.label18.TabIndex = 28;
-            this.label18.Text = "LANGUAGES:";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label19.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label19.Location = new System.Drawing.Point(0, 450);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(108, 31);
-            this.label19.TabIndex = 27;
-            this.label19.Text = "INTRO:";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label20.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label20.Location = new System.Drawing.Point(0, 419);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(311, 31);
-            this.label20.TabIndex = 26;
-            this.label20.Text = "Test grades: (username)";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // splitter7
-            // 
-            this.splitter7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter7.Enabled = false;
-            this.splitter7.Location = new System.Drawing.Point(0, 380);
-            this.splitter7.Name = "splitter7";
-            this.splitter7.Size = new System.Drawing.Size(337, 39);
-            this.splitter7.TabIndex = 25;
-            this.splitter7.TabStop = false;
-            // 
-            // generalTestUserAVGLB
-            // 
-            this.generalTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
-            this.generalTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.generalTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.generalTestUserAVGLB.Location = new System.Drawing.Point(0, 570);
-            this.generalTestUserAVGLB.Name = "generalTestUserAVGLB";
-            this.generalTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
-            this.generalTestUserAVGLB.TabIndex = 32;
-            this.generalTestUserAVGLB.Text = "VIEW LESSONS\r\n";
-            this.generalTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // skillsTestUserAVGLB
-            // 
-            this.skillsTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
-            this.skillsTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.skillsTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.skillsTestUserAVGLB.Location = new System.Drawing.Point(0, 540);
-            this.skillsTestUserAVGLB.Name = "skillsTestUserAVGLB";
-            this.skillsTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
-            this.skillsTestUserAVGLB.TabIndex = 31;
-            this.skillsTestUserAVGLB.Text = "VIEW LESSONS\r\n";
-            this.skillsTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // jobsTestUserAVGLB
-            // 
-            this.jobsTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
-            this.jobsTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.jobsTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.jobsTestUserAVGLB.Location = new System.Drawing.Point(0, 510);
-            this.jobsTestUserAVGLB.Name = "jobsTestUserAVGLB";
-            this.jobsTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
-            this.jobsTestUserAVGLB.TabIndex = 30;
-            this.jobsTestUserAVGLB.Text = "VIEW LESSONS\r\n";
-            this.jobsTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // langTestUserAVGLB
-            // 
-            this.langTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
-            this.langTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.langTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.langTestUserAVGLB.Location = new System.Drawing.Point(0, 480);
-            this.langTestUserAVGLB.Name = "langTestUserAVGLB";
-            this.langTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
-            this.langTestUserAVGLB.TabIndex = 29;
-            this.langTestUserAVGLB.Text = "VIEW LESSONS\r\n";
-            this.langTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // introTestUserAVGLB
-            // 
-            this.introTestUserAVGLB.Dock = System.Windows.Forms.DockStyle.Top;
-            this.introTestUserAVGLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.introTestUserAVGLB.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.introTestUserAVGLB.Location = new System.Drawing.Point(0, 450);
-            this.introTestUserAVGLB.Name = "introTestUserAVGLB";
-            this.introTestUserAVGLB.Size = new System.Drawing.Size(85, 30);
-            this.introTestUserAVGLB.TabIndex = 28;
-            this.introTestUserAVGLB.Text = "VIEW LESSONS\r\n";
-            this.introTestUserAVGLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // splitter8
-            // 
-            this.splitter8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter8.Enabled = false;
-            this.splitter8.Location = new System.Drawing.Point(0, 419);
-            this.splitter8.Name = "splitter8";
-            this.splitter8.Size = new System.Drawing.Size(85, 31);
-            this.splitter8.TabIndex = 27;
-            this.splitter8.TabStop = false;
-            // 
-            // splitter9
-            // 
-            this.splitter9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter9.Enabled = false;
-            this.splitter9.Location = new System.Drawing.Point(0, 375);
-            this.splitter9.Name = "splitter9";
-            this.splitter9.Size = new System.Drawing.Size(85, 44);
-            this.splitter9.TabIndex = 26;
-            this.splitter9.TabStop = false;
-            // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1155,70 +1155,6 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(498, 226);
             this.panel8.TabIndex = 15;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.21795F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.78205F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 179F));
-            this.tableLayoutPanel1.Controls.Add(this.label42, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label41, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label40, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 38);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(496, 47);
-            this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // label40
-            // 
-            this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label40.Location = new System.Drawing.Point(4, 1);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(185, 45);
-            this.label40.TabIndex = 0;
-            this.label40.Text = "Test";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label41
-            // 
-            this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label41.Location = new System.Drawing.Point(196, 1);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(115, 45);
-            this.label41.TabIndex = 1;
-            this.label41.Text = "View";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label42.Location = new System.Drawing.Point(318, 1);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(174, 45);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Grade";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel10
-            // 
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.label50);
-            this.panel10.Controls.Add(this.label49);
-            this.panel10.Controls.Add(this.label48);
-            this.panel10.Controls.Add(this.label47);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel10.Location = new System.Drawing.Point(192, 85);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(122, 139);
-            this.panel10.TabIndex = 3;
             // 
             // panel11
             // 
@@ -1233,77 +1169,17 @@
             this.panel11.Size = new System.Drawing.Size(182, 139);
             this.panel11.TabIndex = 4;
             // 
-            // label47
+            // label54
             // 
-            this.label47.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label47.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label47.Location = new System.Drawing.Point(0, 0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(120, 30);
-            this.label47.TabIndex = 14;
-            this.label47.Text = "TRUE";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label48
-            // 
-            this.label48.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label48.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label48.Location = new System.Drawing.Point(0, 30);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(120, 30);
-            this.label48.TabIndex = 15;
-            this.label48.Text = "TRUE";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label49
-            // 
-            this.label49.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label49.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label49.Location = new System.Drawing.Point(0, 60);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(120, 30);
-            this.label49.TabIndex = 16;
-            this.label49.Text = "TRUE";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label50
-            // 
-            this.label50.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label50.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label50.Location = new System.Drawing.Point(0, 90);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(120, 30);
-            this.label50.TabIndex = 17;
-            this.label50.Text = "TRUE";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label51
-            // 
-            this.label51.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label51.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label51.Location = new System.Drawing.Point(0, 0);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(180, 30);
-            this.label51.TabIndex = 15;
-            this.label51.Text = "3";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label52
-            // 
-            this.label52.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label52.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label52.Location = new System.Drawing.Point(0, 30);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(180, 30);
-            this.label52.TabIndex = 16;
-            this.label52.Text = "5";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label54.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label54.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label54.Location = new System.Drawing.Point(0, 90);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(180, 30);
+            this.label54.TabIndex = 18;
+            this.label54.Text = "1";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label53
             // 
@@ -1317,67 +1193,103 @@
             this.label53.Text = "10";
             this.label53.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label54
+            // label52
             // 
-            this.label54.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label54.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label54.Location = new System.Drawing.Point(0, 90);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(180, 30);
-            this.label54.TabIndex = 18;
-            this.label54.Text = "1";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label52.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label52.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label52.Location = new System.Drawing.Point(0, 30);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(180, 30);
+            this.label52.TabIndex = 16;
+            this.label52.Text = "5";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label55
+            // label51
             // 
-            this.label55.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label55.Location = new System.Drawing.Point(0, 0);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(496, 38);
-            this.label55.TabIndex = 5;
-            this.label55.Text = "Test-ViewLesson Statistics";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label51.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label51.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label51.Location = new System.Drawing.Point(0, 0);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(180, 30);
+            this.label51.TabIndex = 15;
+            this.label51.Text = "3";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label46
+            // panel10
             // 
-            this.label46.AutoSize = true;
-            this.label46.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label46.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label46.Location = new System.Drawing.Point(0, 0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(108, 31);
-            this.label46.TabIndex = 17;
-            this.label46.Text = "INTRO:";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.label50);
+            this.panel10.Controls.Add(this.label49);
+            this.panel10.Controls.Add(this.label48);
+            this.panel10.Controls.Add(this.label47);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(192, 85);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(122, 139);
+            this.panel10.TabIndex = 3;
             // 
-            // label45
+            // label50
             // 
-            this.label45.AutoSize = true;
-            this.label45.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label45.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label45.Location = new System.Drawing.Point(0, 31);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(191, 31);
-            this.label45.TabIndex = 18;
-            this.label45.Text = "LANGUAGES:";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label50.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label50.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label50.Location = new System.Drawing.Point(0, 90);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(120, 30);
+            this.label50.TabIndex = 17;
+            this.label50.Text = "TRUE";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label44
+            // label49
             // 
-            this.label44.AutoSize = true;
-            this.label44.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label44.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label44.Location = new System.Drawing.Point(0, 62);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(93, 31);
-            this.label44.TabIndex = 19;
-            this.label44.Text = "JOBS:";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label49.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label49.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label49.Location = new System.Drawing.Point(0, 60);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(120, 30);
+            this.label49.TabIndex = 16;
+            this.label49.Text = "TRUE";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label48
+            // 
+            this.label48.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label48.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label48.Location = new System.Drawing.Point(0, 30);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(120, 30);
+            this.label48.TabIndex = 15;
+            this.label48.Text = "TRUE";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label47
+            // 
+            this.label47.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label47.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label47.Location = new System.Drawing.Point(0, 0);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(120, 30);
+            this.label47.TabIndex = 14;
+            this.label47.Text = "TRUE";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel9
+            // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.label43);
+            this.panel9.Controls.Add(this.label44);
+            this.panel9.Controls.Add(this.label45);
+            this.panel9.Controls.Add(this.label46);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel9.Location = new System.Drawing.Point(0, 85);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(192, 139);
+            this.panel9.TabIndex = 2;
             // 
             // label43
             // 
@@ -1392,18 +1304,106 @@
             this.label43.Text = "SKILLS:";
             this.label43.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // panel9
+            // label44
             // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.label43);
-            this.panel9.Controls.Add(this.label44);
-            this.panel9.Controls.Add(this.label45);
-            this.panel9.Controls.Add(this.label46);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel9.Location = new System.Drawing.Point(0, 85);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(192, 139);
-            this.panel9.TabIndex = 2;
+            this.label44.AutoSize = true;
+            this.label44.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label44.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label44.Location = new System.Drawing.Point(0, 62);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(93, 31);
+            this.label44.TabIndex = 19;
+            this.label44.Text = "JOBS:";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label45.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label45.Location = new System.Drawing.Point(0, 31);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(191, 31);
+            this.label45.TabIndex = 18;
+            this.label45.Text = "LANGUAGES:";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label46.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label46.Location = new System.Drawing.Point(0, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(108, 31);
+            this.label46.TabIndex = 17;
+            this.label46.Text = "INTRO:";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.21795F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.78205F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 183F));
+            this.tableLayoutPanel1.Controls.Add(this.label42, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label41, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label40, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 38);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(496, 47);
+            this.tableLayoutPanel1.TabIndex = 1;
+            // 
+            // label42
+            // 
+            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label42.Location = new System.Drawing.Point(314, 1);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(178, 45);
+            this.label42.TabIndex = 2;
+            this.label42.Text = "Grade";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label41
+            // 
+            this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label41.Location = new System.Drawing.Point(194, 1);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(113, 45);
+            this.label41.TabIndex = 1;
+            this.label41.Text = "View";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label40
+            // 
+            this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label40.Location = new System.Drawing.Point(4, 1);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(183, 45);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "Test";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label55
+            // 
+            this.label55.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label55.Location = new System.Drawing.Point(0, 0);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(496, 38);
+            this.label55.TabIndex = 5;
+            this.label55.Text = "Test-ViewLesson Statistics";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel12
             // 
@@ -1437,6 +1437,86 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(154, 386);
             this.panel13.TabIndex = 14;
+            // 
+            // label70
+            // 
+            this.label70.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label70.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label70.Location = new System.Drawing.Point(0, 345);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(152, 30);
+            this.label70.TabIndex = 33;
+            this.label70.Text = "VIEW LESSONS\r\n";
+            this.label70.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label64
+            // 
+            this.label64.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label64.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label64.Location = new System.Drawing.Point(0, 315);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(152, 30);
+            this.label64.TabIndex = 32;
+            this.label64.Text = "VIEW LESSONS\r\n";
+            this.label64.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label63
+            // 
+            this.label63.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label63.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label63.Location = new System.Drawing.Point(0, 285);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(152, 30);
+            this.label63.TabIndex = 31;
+            this.label63.Text = "VIEW LESSONS\r\n";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label62
+            // 
+            this.label62.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label62.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label62.Location = new System.Drawing.Point(0, 255);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(152, 30);
+            this.label62.TabIndex = 30;
+            this.label62.Text = "VIEW LESSONS\r\n";
+            this.label62.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label61
+            // 
+            this.label61.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label61.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label61.Location = new System.Drawing.Point(0, 225);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(152, 30);
+            this.label61.TabIndex = 29;
+            this.label61.Text = "VIEW LESSONS\r\n";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // splitter12
+            // 
+            this.splitter12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter12.Enabled = false;
+            this.splitter12.Location = new System.Drawing.Point(0, 194);
+            this.splitter12.Name = "splitter12";
+            this.splitter12.Size = new System.Drawing.Size(152, 31);
+            this.splitter12.TabIndex = 28;
+            this.splitter12.TabStop = false;
+            // 
+            // splitter11
+            // 
+            this.splitter11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter11.Enabled = false;
+            this.splitter11.Location = new System.Drawing.Point(0, 150);
+            this.splitter11.Name = "splitter11";
+            this.splitter11.Size = new System.Drawing.Size(152, 44);
+            this.splitter11.TabIndex = 27;
+            this.splitter11.TabStop = false;
             // 
             // label65
             // 
@@ -1518,6 +1598,94 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(339, 386);
             this.panel14.TabIndex = 13;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label60.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label60.Location = new System.Drawing.Point(0, 349);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(152, 31);
+            this.label60.TabIndex = 35;
+            this.label60.Text = "GENERAL:";
+            this.label60.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label56.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label56.Location = new System.Drawing.Point(0, 318);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(114, 31);
+            this.label56.TabIndex = 34;
+            this.label56.Text = "SKILLS:";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label57.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label57.Location = new System.Drawing.Point(0, 287);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(93, 31);
+            this.label57.TabIndex = 33;
+            this.label57.Text = "JOBS:";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label58.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label58.Location = new System.Drawing.Point(0, 256);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(191, 31);
+            this.label58.TabIndex = 32;
+            this.label58.Text = "LANGUAGES:";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label59.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label59.Location = new System.Drawing.Point(0, 225);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(108, 31);
+            this.label59.TabIndex = 31;
+            this.label59.Text = "INTRO:";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label39.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label39.Location = new System.Drawing.Point(0, 194);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(311, 31);
+            this.label39.TabIndex = 27;
+            this.label39.Text = "Test grades: (username)";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // splitter10
+            // 
+            this.splitter10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter10.Enabled = false;
+            this.splitter10.Location = new System.Drawing.Point(0, 155);
+            this.splitter10.Name = "splitter10";
+            this.splitter10.Size = new System.Drawing.Size(337, 39);
+            this.splitter10.TabIndex = 26;
+            this.splitter10.TabStop = false;
             // 
             // label82
             // 
@@ -1608,174 +1776,6 @@
             this.label88.Text = "Test Tries Statistics";
             this.label88.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // splitter10
-            // 
-            this.splitter10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter10.Enabled = false;
-            this.splitter10.Location = new System.Drawing.Point(0, 155);
-            this.splitter10.Name = "splitter10";
-            this.splitter10.Size = new System.Drawing.Size(337, 39);
-            this.splitter10.TabIndex = 26;
-            this.splitter10.TabStop = false;
-            // 
-            // splitter11
-            // 
-            this.splitter11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter11.Enabled = false;
-            this.splitter11.Location = new System.Drawing.Point(0, 150);
-            this.splitter11.Name = "splitter11";
-            this.splitter11.Size = new System.Drawing.Size(152, 44);
-            this.splitter11.TabIndex = 27;
-            this.splitter11.TabStop = false;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label39.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label39.Location = new System.Drawing.Point(0, 194);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(311, 31);
-            this.label39.TabIndex = 27;
-            this.label39.Text = "Test grades: (username)";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // splitter12
-            // 
-            this.splitter12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter12.Enabled = false;
-            this.splitter12.Location = new System.Drawing.Point(0, 194);
-            this.splitter12.Name = "splitter12";
-            this.splitter12.Size = new System.Drawing.Size(152, 31);
-            this.splitter12.TabIndex = 28;
-            this.splitter12.TabStop = false;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label56.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label56.Location = new System.Drawing.Point(0, 318);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(114, 31);
-            this.label56.TabIndex = 34;
-            this.label56.Text = "SKILLS:";
-            this.label56.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label57.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label57.Location = new System.Drawing.Point(0, 287);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(93, 31);
-            this.label57.TabIndex = 33;
-            this.label57.Text = "JOBS:";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label58.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label58.Location = new System.Drawing.Point(0, 256);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(191, 31);
-            this.label58.TabIndex = 32;
-            this.label58.Text = "LANGUAGES:";
-            this.label58.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label59.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label59.Location = new System.Drawing.Point(0, 225);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(108, 31);
-            this.label59.TabIndex = 31;
-            this.label59.Text = "INTRO:";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label60.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label60.Location = new System.Drawing.Point(0, 349);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(152, 31);
-            this.label60.TabIndex = 35;
-            this.label60.Text = "GENERAL:";
-            this.label60.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label61
-            // 
-            this.label61.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label61.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label61.Location = new System.Drawing.Point(0, 225);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(152, 30);
-            this.label61.TabIndex = 29;
-            this.label61.Text = "VIEW LESSONS\r\n";
-            this.label61.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label62
-            // 
-            this.label62.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label62.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label62.Location = new System.Drawing.Point(0, 255);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(152, 30);
-            this.label62.TabIndex = 30;
-            this.label62.Text = "VIEW LESSONS\r\n";
-            this.label62.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label63
-            // 
-            this.label63.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label63.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label63.Location = new System.Drawing.Point(0, 285);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(152, 30);
-            this.label63.TabIndex = 31;
-            this.label63.Text = "VIEW LESSONS\r\n";
-            this.label63.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label64
-            // 
-            this.label64.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label64.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label64.Location = new System.Drawing.Point(0, 315);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(152, 30);
-            this.label64.TabIndex = 32;
-            this.label64.Text = "VIEW LESSONS\r\n";
-            this.label64.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label70
-            // 
-            this.label70.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label70.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label70.Location = new System.Drawing.Point(0, 345);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(152, 30);
-            this.label70.TabIndex = 33;
-            this.label70.Text = "VIEW LESSONS\r\n";
-            this.label70.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // StatisticsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1804,11 +1804,11 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);

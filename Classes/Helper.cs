@@ -58,10 +58,6 @@ namespace LearningSoftware.Classes
                 LessonView lv = new LessonView(sid, 0, 0, 0, 0);
                 var result2 = con.Execute(insertQuery, lv);
 
-                //set TEST to 0 
-                insertQuery = @"INSERT INTO [TEST]([S_ID], [TEST_1], [TEST_2], [TEST_3], [TEST_4], [TEST_T]) VALUES (@S_ID, @TEST_1, @TEST_2, @TEST_3, @TEST_4, @TEST_T)";
-                Test tst = new Test(sid, 0, 0, 0, 0, 0);
-                var result3 = con.Execute(insertQuery, tst);
             }
             else
             {
@@ -86,7 +82,7 @@ namespace LearningSoftware.Classes
             return sid;
         }
 
-        public static void updateLessonView(LessonView lv)
+        public static void UpdateLessonView(LessonView lv)
         {
             string sql = "update [LESSONVIEW] set LESSON_1 = @LESSON_1, LESSON_2 = @LESSON_2, LESSON_3 = @LESSON_3, LESSON_4 = @LESSON_4  WHERE S_ID = @S_ID";
             var results = con.Execute(sql, lv);
@@ -97,6 +93,13 @@ namespace LearningSoftware.Classes
             string query = $"SELECT * FROM LESSONVIEW";
             List<LessonView> st = con.Query<LessonView>(query, null).AsList();
             return st;
+        }
+
+        public static void AddTestGrade(int sid, TestEnum test, int grade)
+        {
+            string insertQuery = @"INSERT INTO [TESTS]([S_ID], [TEST], [GRADE]) VALUES (@S_ID, @TEST, @GRADE)";
+            Test lv = new Test(sid, test, grade);
+            var result = con.Execute(insertQuery, lv);
         }
 
     }

@@ -29,7 +29,7 @@ namespace LearningSoftware
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var f = new EvaluationTasksForm();
+            var f = new EvaluationTasksForm(currentStudent);
             f.ShowDialog();
         }
 
