@@ -90,5 +90,11 @@ namespace LearningSoftware
             mainPanel.Controls.Clear();
             this.Refresh();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            JobFinderForm f = new JobFinderForm();
+            f.ShowDialog();
+        }
     }
 }

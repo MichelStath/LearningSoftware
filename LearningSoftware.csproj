@@ -126,6 +126,12 @@
     <Compile Include="IntroPages\IntroPage2.Designer.cs">
       <DependentUpon>IntroPage2.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobFinderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobFinderForm.Designer.cs">
+      <DependentUpon>JobFinderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="JobsPages\JobPage1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -238,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IntroPages\IntroPage2.resx">
       <DependentUpon>IntroPage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobFinderForm.resx">
+      <DependentUpon>JobFinderForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobsPages\JobPage1.resx">
       <DependentUpon>JobPage1.cs</DependentUpon>
