@@ -23,8 +23,13 @@ namespace LearningSoftware
         private List<NumericUpDown> UI_UX_NUP_LIST;
         private List<NumericUpDown> AI_NUP_LIST;
         private List<NumericUpDown> Teacher_NUP_LIST;
-        private JobFinderClass jobClass;
         private Student currentStudent = new Student();
+        private JobsClass SOFWARE_JOB;
+        private JobsClass NETWORK_JOB;
+        private JobsClass UI_JOB;
+        private JobsClass AI_JOB;
+        private JobsClass TEACHER_JOB;
+        private List<JobsClass> jobList = new List<JobsClass>();
         public JobFinderForm(Student s)
         {
             InitializeComponent();
@@ -41,14 +46,22 @@ namespace LearningSoftware
 
         private void button1_Click(object sender, EventArgs e)
         {
-            setCountersValues();
-            MessageBox.Show($"S_ID: {currentStudent.S_ID} \n" +
-                $"Software: {softwareDeveloper_counter} \n" +
-                $"Network: {network_counter} \n" +
-                $"UI-UX: {UI_UX_counter} \n" +
-                $"AI: {AI_counter} \n" +
-                $"Teacher: {Teacher_counter}", "Counters");
+            jobList.Clear();
             ClearCounters();
+            setCountersValues();
+            SOFWARE_JOB = new JobsClass("SOFTWARE", softwareDeveloper_counter);
+            NETWORK_JOB = new JobsClass("NETWORK", network_counter);
+            UI_JOB = new JobsClass("UI", UI_UX_counter);
+            AI_JOB = new JobsClass("AI", AI_counter);
+            TEACHER_JOB = new JobsClass("TEACHER", Teacher_counter);
+            jobList.Add(SOFWARE_JOB);
+            jobList.Add(NETWORK_JOB);
+            jobList.Add(UI_JOB);
+            jobList.Add(AI_JOB);
+            jobList.Add(TEACHER_JOB);
+            JobResultsForm f = new JobResultsForm(jobList, currentStudent);
+            f.ShowDialog();
+
         }
 
         private void setCountersValues()
@@ -82,12 +95,6 @@ namespace LearningSoftware
                 Teacher_counter += (int)n.Value;
                 n.Value = 0;
             }
-            jobClass = new JobFinderClass(currentStudent.S_ID, 
-                softwareDeveloper_counter,
-                network_counter,
-                UI_UX_counter,
-                AI_counter,
-                Teacher_counter);
         }
 
         private void LoadLists()
