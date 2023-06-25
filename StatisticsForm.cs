@@ -52,10 +52,10 @@ namespace LearningSoftware
 
 
             //TEST GRADES TOTAL AVG
-            testIntroTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO)).Select(x => x.GRADE).Average().ToString();
+            testIntroTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO)).Select(x => x.GRADE).Average().ToString(); // TODO: FIX
             langTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG)).Select(x => x.GRADE).Average().ToString();
             jobsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS)).Select(x => x.GRADE).Average().ToString();
-            skillsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS)).Select(x => x.GRADE).Average().ToString();
+            skillsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS)).Select(x => x?.GRADE).Average().ToString();
             generalTestTotalLB.Text = allTestList.Select(x => x.GRADE).Average().ToString();
 
             //TEST GRADES USERNAME
