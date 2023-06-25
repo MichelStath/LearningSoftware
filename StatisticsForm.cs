@@ -13,9 +13,9 @@ namespace LearningSoftware
 {
     public partial class StatisticsForm : Form
     {
-        public Student currentStudent = new Student(); 
+        public Student currentStudent = new Student();
         private List<LessonView> allLessonViewList = new List<LessonView>();
-        private List<Test> allTestList= new List<Test>();
+        private List<Test> allTestList = new List<Test>();
         public StatisticsForm(Student st)
         {
             InitializeComponent();
@@ -44,37 +44,38 @@ namespace LearningSoftware
             totalLB.Text = allLessonViewList.Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString();
 
             //VIEW LESSONS (USER)
-            userIntroLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1).Sum().ToString(); 
-            userLangLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_2).Sum().ToString(); 
-            userJobsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_3).Sum().ToString(); 
-            userSKillsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_4).Sum().ToString(); 
+            userIntroLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1).Sum().ToString();
+            userLangLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_2).Sum().ToString();
+            userJobsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_3).Sum().ToString();
+            userSKillsLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_4).Sum().ToString();
             userTotalLB.Text = allLessonViewList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.LESSON_1 + x.LESSON_2 + x.LESSON_3 + x.LESSON_4).Sum().ToString();
 
 
             //TEST GRADES TOTAL AVG
-            testIntroTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO)).Select(x => x.GRADE).Average().ToString(); // TODO: FIX
-            langTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG)).Select(x => x.GRADE).Average().ToString();
-            jobsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS)).Select(x => x.GRADE).Average().ToString();
-            skillsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS)).Select(x => x?.GRADE).Average().ToString();
-            generalTestTotalLB.Text = allTestList.Select(x => x.GRADE).Average().ToString();
+            testIntroTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString(); 
+            langTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
+            jobsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
+            skillsTestTotalLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS)).Select(x => x?.GRADE).DefaultIfEmpty(0).Average().ToString();
+            generalTestTotalLB.Text = allTestList.Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
 
-            //TEST GRADES USERNAME
-            introTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).First().ToString();
-            langTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).First().ToString();
-            jobsTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).First().ToString();
-            skillsTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).First().ToString();
-            generalTestUserLB.Text = allTestList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).First().ToString();
+            //TEST GRADES USERNAME // LAST TEST
+            introTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE)?.LastOrDefault().ToString();
+            langTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).LastOrDefault().ToString();
+            jobsTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE)?.LastOrDefault().ToString();
+            skillsTestUserLB.Text = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE)?.LastOrDefault().ToString();
+            generalTestUserLB.Text = allTestList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE)?.LastOrDefault().ToString();
 
             //TEST GRADES USERNAME AVG
-            var introuserAVG = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).Average().ToString();
-            var languserAVG = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).Average().ToString();
-            var jobsuseravg = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).Average().ToString();
-            var skillsuseravg = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).Average().ToString();
+
+            var introuserAVG = allTestList.Where(x => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
+            var languserAVG = allTestList.Where(x => x.TEST.Equals(TestEnum.LANG) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
+            var jobsuseravg = allTestList.Where(x => x.TEST.Equals(TestEnum.JOBS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
+            var skillsuseravg = allTestList.Where(x => x.TEST.Equals(TestEnum.SKILLS) && x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).DefaultIfEmpty(0).Average().ToString();
 
             introTestUserAVGLB.Text = introuserAVG.ToString();
             langTestUserAVGLB.Text = languserAVG.ToString();
             jobsTestUserAVGLB.Text = jobsuseravg.ToString();
-            skillsTestUserAVGLB.Text =skillsuseravg.ToString();
+            skillsTestUserAVGLB.Text = skillsuseravg.ToString();
             generalTestUserAVGLB.Text = allTestList.Where(x => x.S_ID.Equals(currentStudent.S_ID)).Select(x => x.GRADE).Average().ToString();
 
             //Test-View User Stats
@@ -89,14 +90,14 @@ namespace LearningSoftware
             label54.Text = skillsuseravg.ToString();
 
             //test tries total
-            label69.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.INTRO)).Count().ToString(); 
+            label69.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.INTRO)).Count().ToString();
             label68.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.LANG)).Count().ToString();
             label67.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.JOBS)).Count().ToString();
             label66.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.SKILLS)).Count().ToString();
             label65.Text = allTestList.Count().ToString();
 
             //test tries student
-            label61.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Count().ToString(); 
+            label61.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.INTRO) && x.S_ID.Equals(currentStudent.S_ID)).Count().ToString();
             label62.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.LANG) && x.S_ID.Equals(currentStudent.S_ID)).Count().ToString();
             label63.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.JOBS) && x.S_ID.Equals(currentStudent.S_ID)).Count().ToString();
             label64.Text = allTestList.Where((x) => x.TEST.Equals(TestEnum.SKILLS) && x.S_ID.Equals(currentStudent.S_ID)).Count().ToString();
