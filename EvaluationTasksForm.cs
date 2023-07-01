@@ -1,4 +1,5 @@
 ﻿using LearningSoftware.Classes;
+using LearningSoftware.OnlineHelp;
 using LearningSoftware.TestPages;
 using System;
 using System.Collections.Generic;
@@ -94,6 +95,13 @@ namespace LearningSoftware
         private void button2_Click(object sender, EventArgs e)
         {
             JobFinderForm f = new JobFinderForm(currentStudent);
+            f.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            TestHelper c = new TestHelper();
+            OnlineHelpForm f = new OnlineHelpForm(c);
             f.ShowDialog();
         }
     }

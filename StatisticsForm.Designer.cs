@@ -1349,7 +1349,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.21795F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.78205F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 189F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 191F));
             this.tableLayoutPanel1.Controls.Add(this.label42, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label41, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label40, 0, 0);
@@ -1365,9 +1365,9 @@
             // 
             this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label42.Location = new System.Drawing.Point(308, 1);
+            this.label42.Location = new System.Drawing.Point(306, 1);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(184, 45);
+            this.label42.Size = new System.Drawing.Size(186, 45);
             this.label42.TabIndex = 2;
             this.label42.Text = "Grade";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1376,9 +1376,9 @@
             // 
             this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label41.Location = new System.Drawing.Point(190, 1);
+            this.label41.Location = new System.Drawing.Point(189, 1);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(111, 45);
+            this.label41.Size = new System.Drawing.Size(110, 45);
             this.label41.TabIndex = 1;
             this.label41.Text = "View";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1389,7 +1389,7 @@
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label40.Location = new System.Drawing.Point(4, 1);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(179, 45);
+            this.label40.Size = new System.Drawing.Size(178, 45);
             this.label40.TabIndex = 0;
             this.label40.Text = "Test";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

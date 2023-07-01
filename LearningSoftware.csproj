@@ -169,6 +169,24 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnlineHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineHelpForm.Designer.cs">
+      <DependentUpon>OnlineHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineHelp\EducationMaterialHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OnlineHelp\EducationMaterialHelp.Designer.cs">
+      <DependentUpon>EducationMaterialHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineHelp\TestHelper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OnlineHelp\TestHelper.Designer.cs">
+      <DependentUpon>TestHelper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterForm.cs">
@@ -272,6 +290,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineHelpForm.resx">
+      <DependentUpon>OnlineHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineHelp\EducationMaterialHelp.resx">
+      <DependentUpon>EducationMaterialHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineHelp\TestHelper.resx">
+      <DependentUpon>TestHelper.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

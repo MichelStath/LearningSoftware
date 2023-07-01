@@ -39,10 +39,20 @@ namespace LearningSoftware
 
         private void loginBTN_Click(object sender, EventArgs e)
         {
+            if(Helper.GetStudentCount(textBox1.Text.ToString()) < 1)
+            {
+                MessageBox.Show("Not Registered");
+                return;
+            }
+
             if (Helper.LoginStudent(textBox1.Text.Trim(), textBox2.Text.Trim()))
             {
                 var f = new HomeForm(textBox1.Text.Trim());
                 f.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Password");
             }
         }
     }

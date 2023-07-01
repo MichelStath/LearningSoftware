@@ -2,6 +2,7 @@
 using LearningSoftware.IntroPages;
 using LearningSoftware.JobsPages;
 using LearningSoftware.LanguagesPages;
+using LearningSoftware.OnlineHelp;
 using LearningSoftware.SkillsPages;
 using System;
 using System.Collections.Generic;
@@ -231,5 +232,11 @@ namespace LearningSoftware
             homeDict.Add(2, hPage2);
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            EducationMaterialHelp c = new EducationMaterialHelp();
+            OnlineHelpForm f = new OnlineHelpForm(c);
+            f.ShowDialog();
+        }
     }
 }

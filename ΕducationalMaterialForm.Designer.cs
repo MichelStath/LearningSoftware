@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.exitBTN = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.jobsBTN = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.skilsBTN = new System.Windows.Forms.Button();
             this.langBTN = new System.Windows.Forms.Button();
             this.introBTN = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.prevBTN = new System.Windows.Forms.Button();
             this.nextBTN = new System.Windows.Forms.Button();
+            this.exitBTN = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -59,19 +59,6 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(2);
             this.panel1.Size = new System.Drawing.Size(1600, 55);
             this.panel1.TabIndex = 10;
-            // 
-            // exitBTN
-            // 
-            this.exitBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.exitBTN.BackColor = System.Drawing.Color.DimGray;
-            this.exitBTN.Image = global::LearningSoftware.Properties.Resources.Exit;
-            this.exitBTN.Location = new System.Drawing.Point(1545, 2);
-            this.exitBTN.Name = "exitBTN";
-            this.exitBTN.Size = new System.Drawing.Size(50, 50);
-            this.exitBTN.TabIndex = 1;
-            this.exitBTN.UseVisualStyleBackColor = false;
-            this.exitBTN.Click += new System.EventHandler(this.exitBTN_Click);
             // 
             // panel2
             // 
@@ -114,8 +101,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(194, 50);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Help";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // skilsBTN
             // 
@@ -162,6 +150,18 @@
             this.introBTN.UseVisualStyleBackColor = false;
             this.introBTN.Click += new System.EventHandler(this.introBTN_Click);
             // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.ForeColor = System.Drawing.Color.Aqua;
+            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(194, 50);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Categories";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
@@ -182,18 +182,6 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1400, 645);
             this.mainPanel.TabIndex = 13;
-            // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label1.ForeColor = System.Drawing.Color.Aqua;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 50);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Categories";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // prevBTN
             // 
@@ -219,6 +207,19 @@
             this.nextBTN.TabIndex = 0;
             this.nextBTN.UseVisualStyleBackColor = false;
             this.nextBTN.Click += new System.EventHandler(this.nextBTN_Click);
+            // 
+            // exitBTN
+            // 
+            this.exitBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitBTN.BackColor = System.Drawing.Color.DimGray;
+            this.exitBTN.Image = global::LearningSoftware.Properties.Resources.Exit;
+            this.exitBTN.Location = new System.Drawing.Point(1545, 2);
+            this.exitBTN.Name = "exitBTN";
+            this.exitBTN.Size = new System.Drawing.Size(50, 50);
+            this.exitBTN.TabIndex = 1;
+            this.exitBTN.UseVisualStyleBackColor = false;
+            this.exitBTN.Click += new System.EventHandler(this.exitBTN_Click);
             // 
             // pictureBox1
             // 
